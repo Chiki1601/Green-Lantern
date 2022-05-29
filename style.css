@@ -1,0 +1,180 @@
+body{
+  background: #999999;
+}
+.container {
+  position: relative;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  top: 30px;
+  background: none;
+}
+.frame {
+  position: absolute;
+  height: 300px;
+  width: 250px;
+  left: 45px;
+  border: 30px solid #f4f4ee;
+  background: #7B9334;
+}
+.head {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 75px;
+  top: 40px;
+  border-radius: 50px 50px 0 0;
+  background: #DCB886;
+}
+.chin {
+  position: absolute; 
+  height: 100px;
+  width: 100px;
+  top: 60px;
+  background: #DCB886;
+  -webkit-clip-path: polygon(100% 25%, 95% 65%, 70% 100%, 30% 100%, 5% 66%, 0% 25%);
+clip-path: polygon(100% 25%, 95% 65%, 70% 100%, 30% 100%, 5% 66%, 0% 25%); 
+  z-index: 3;
+}
+.chin-shadow {
+  position: absolute; 
+  height: 100px;
+  width: 100px;
+  top: 70px;
+  background: #c6a578;
+  -webkit-clip-path: polygon(100% 25%, 100% 65%, 70% 100%, 30% 100%, 0 65%, 0% 25%);
+clip-path: polygon(100% 25%, 100% 65%, 70% 100%, 30% 100%, 0 65%, 0% 25%);
+  z-index: 2;
+}
+.hair-1 {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  left: 65px;
+  top: 30px;
+  background: #384936;
+  -webkit-clip-path: polygon(27% 0, 79% 7%, 100% 34%, 0 54%, 0 17%);
+clip-path: polygon(27% 0, 79% 7%, 100% 34%, 0 54%, 0 17%);
+  z-index: 4;
+}
+.hair-2{
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  left: 110px;
+  top: 65px;
+  background: #384936;
+  -webkit-clip-path: polygon(100% 0, 70% 1%, 100% 100%);
+clip-path: polygon(100% 0, 70% 1%, 100% 100%);
+  -webkit-transform: rotate(9deg);
+  z-index: 5;
+}
+.hair-3 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 70px;
+  top: 75px;
+  background: #384936;
+  -webkit-clip-path: polygon(40% 0, 0 0, 0 100%);
+clip-path: polygon(40% 0, 0 0, 0 100%);
+  -webkit-transform: rotate(-10deg);
+  z-index: 5;
+}
+.mask {
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  left: 75px;
+  top: 95px;
+  background: #007A1B;
+  -webkit-clip-path: polygon(50% 20%, 100% 0, 100% 50%, 50% 70%, 0 50%, 0 0);
+clip-path: polygon(50% 20%, 100% 0, 100% 50%, 50% 70%, 0 50%, 0 0);
+  z-index: 4;
+}
+.left-eye {
+  position: absolute; 
+  height: 30px;
+  width: 30px;
+  left: 80px;
+  top: 115px;
+  background: #f4f4ee;
+  -webkit-clip-path: polygon(100% 0, 0 0, 60% 40%);
+clip-path: polygon(100% 0, 0 0, 60% 40%);
+  -webkit-transform: rotate(15deg);
+  z-index: 7;
+}
+.right-eye {
+  position: absolute; 
+  height: 30px;
+  width: 30px;
+  left: 138px;
+  top: 115px;
+  background: #f4f4ee;
+  -webkit-clip-path: polygon(100% 0, 0 0, 60% 40%);
+clip-path: polygon(100% 0, 0 0, 60% 40%);
+  -webkit-transform: rotate(-15deg);
+  z-index: 7;
+}
+.mouth {
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  left: 37px;
+  top: 125px;
+  background: #b2946c;
+  z-index: 7;
+}
+.neck {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  left: 75px;
+  top: 170px;
+  background: #007A1B;
+}
+.torso {
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  top: 150px;
+  background: #007A1B;
+  -webkit-clip-path: polygon(50% 20%, 100% 40%, 100% 100%, 0 100%, 0 40%);
+clip-path: polygon(50% 20%, 100% 40%, 100% 100%, 0 100%, 0 40%);
+}
+.logo {
+  position: absolute; 
+  height: 90px;
+  width: 90px;
+  left: 80px;
+  top: 240px;
+  border-radius: 50%;
+  background: #dbdbd6;
+  z-index: 7;
+}
+.lantern {
+  position: absolute; 
+  height: 30px; 
+  width: 30px;
+  left: 20px;
+  top: 20px;
+  border-radius: 50%;
+  border: 10px solid #323232;
+}
+.lantern-top {
+  position: absolute; 
+  height: 10px;
+  width: 45px;
+  left: 22px;
+  top: 15px;
+  background: #323232;
+} 
+.cover {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  left: 75px;
+  top: 300px;
+  background: #f4f4ee;
+  z-index: 10;
+}
